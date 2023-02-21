@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tulsa Resolution Website</title>
+  </head>
+  <body>
+    <h1>Tulsa Resolution Website</h1>
+    <p>Welcome to our website! Please use the buttons below to send an email to the Tulsa City Council urging them to pass the resolution reaffirming that Tulsa is a place for all people.</p>
+
+    <!-- Button for custom email -->
+    <button onclick="sendCustomEmail()">Send Custom Email</button>
+
+    <!-- Button for pre-written email -->
+    <button onclick="sendPrewrittenEmail()">Send Pre-written Email</button>
+
+    <script>
+      // Function to send a custom email with a short guide
+      function sendCustomEmail() {
+        window.location.href = "mailto:mayor@cityoftulsa.org,Dist1@tulsacouncil.org,Dist2@tulsacouncil.org,Dist3@tulsacouncil.org,Dist4@tulsacouncil.org,Dist5@tulsacouncil.org,Dist6@tulsacouncil.org,Dist7@tulsacouncil.org,Dist8@tulsacouncil.org,Dist9@tulsacouncil.org?subject=Tulsa Resolution&body=Dear Council Member,%0D%0A%0D%0AI am writing to urge you to pass the resolution reaffirming that Tulsa is a place for all people. This resolution is important because it sends a clear message that discrimination will not be tolerated in our city, and it helps to create a welcoming and inclusive community for all residents. When you reach out to the council members, please consider including the following key points in your message:%0D%0A%0D%0A- Tulsa is a diverse and vibrant city, and we should celebrate and embrace that diversity.%0D%0A- Passing this resolution would show that Tulsa is committed to creating a safe and welcoming environment for all residents, regardless of their race, gender, sexual identity, or any other characteristic.%0D%0A- Discrimination and prejudice have no place in our community, and we must stand up to them whenever and wherever they occur.%0D%0A%0D%0AThank you for your time and attention to this important issue. I hope you will join me in supporting this resolution.%0D%0A%0D%0ABest regards,%0D%0A[Your Name]";
+
+      }
+
+      // Function to send a pre-written email
+      function sendPrewrittenEmail() {
+        window.location.href = "mailto:mayor@cityoftulsa.org,Dist1@tulsacouncil.org,Dist2@tulsacouncil.org,Dist3@tulsacouncil.org,Dist4@tulsacouncil.org,Dist5@tulsacouncil.org,Dist6@tulsacouncil.org,Dist7@tulsacouncil.org,Dist8@tulsacouncil.org,Dist9@tulsacouncil.org?subject=Tulsa Resolution&body=Dear Council Member,%0D%0A%0D%0AI am writing to urge you to pass the resolution reaffirming that Tulsa is a place for all people. This resolution is urgently needed to make it clear that Tulsa is a city that welcomes and values all residents, regardless of their race, gender, sexual identity, or any other characteristic. Discrimination and prejudice have no place in our community, and it is important that our city takes a stand against them
+  }
+
+</script>
+
+  </body>
+</html>
+```
