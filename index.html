@@ -1,14 +1,23 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="UTF-8">
-    <title>Tulsa City Council Districts Map</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Tulsa Map</title>
+    <style>
+      /* Add your CSS styles here */
+      #map {
+        height: 500px;
+        width: 100%;
+      }
+    </style>
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY"></script>
+    <script src="script.js"></script>
   </head>
   <body>
-    <h1>Tulsa City Council Districts Map</h1>
+    <h1>Tulsa Map</h1>
+    <p>Select your city council district:</p>
     <div id="map"></div>
-    <div id="councilor-info"></div>
-    <script src="script.js"></script>
+    <p>Your city councilor is: <span id="councilor"></span></p>
+    <p>To urge your councilor to pass the resolution to reaffirm that Tulsa is a safe and welcoming city, send them an email with this template:</p>
+    <p><em>Dear [COUNCILOR NAME],<br><br>I am a resident of District [DISTRICT NUMBER] and I urge you to support the resolution to reaffirm that Tulsa is a safe and welcoming city. This resolution is important for protecting the rights and dignity of all Tulsa residents, regardless of their race, gender, or sexual orientation. Please do everything in your power to ensure that this resolution is passed.<br><br>Sincerely,<br>[YOUR NAME]</em></p>
   </body>
 </html>
